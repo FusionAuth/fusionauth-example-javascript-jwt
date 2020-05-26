@@ -1,4 +1,6 @@
 const jwt = require('jsonwebtoken');
+
+// the IdP
 const hmac_key = 'hello denverscript!';
 const token = jwt.sign(
     { 
@@ -13,5 +15,6 @@ const token = jwt.sign(
 
 console.log(token);
 
+// the todo api 
 const verified = jwt.verify(token, hmac_key);
 console.log(verified);
