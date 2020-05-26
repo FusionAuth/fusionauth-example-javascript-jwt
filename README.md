@@ -4,4 +4,9 @@
 
 `npm install`
 
-`node index.js`
+`node hmac.js`
+
+## Library used
+
+https://www.npmjs.com/package/jsonwebtoken
+
