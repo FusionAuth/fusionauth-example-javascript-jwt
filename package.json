@@ -1,0 +1,16 @@
+{
+  "name": "@fusionauth/example-javascript-jwt",
+  "version": "0.0.1",
+  "description": "Examples of JWT verification using javascript.",
+  "main": "index.js",
+  "author": "Dan Moore",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FusionAuth/fusionauth-example-javascript-jwt/issues"
+  },
+  "homepage": "https://github.com/FusionAuth/fusionauth-example-javascript-jwt#readme",
+  "dependencies": {
+    "browserid-crypto": "^0.9.1",
+    "jsrsasign": "^8.0.0"
+  }
+}
