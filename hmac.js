@@ -1,6 +1,6 @@
-var jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken');
 const hmac_key = 'hello denverscript!';
-var token = jwt.sign(
+const token = jwt.sign(
     { 
       email: 'test@example.com' ,
       exp: Math.floor(Date.now() / 1000) + (60 * 60),
@@ -13,4 +13,5 @@ var token = jwt.sign(
 
 console.log(token);
 
-
+const verified = jwt.verify(token, hmac_key);
+console.log(verified);
