@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 
 // the IdP
-const hmac_key = 'hello denverscript!';
+const hmac_key = 'hello javascript random STUFF$$!';
 const token = jwt.sign(
     { 
       email: 'test@example.com' ,
