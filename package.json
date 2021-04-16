@@ -11,6 +11,6 @@
   "homepage": "https://github.com/FusionAuth/fusionauth-example-javascript-jwt#readme",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
-    "jsrsasign": "^8.0.19"
+    "jsrsasign": "^10.2.0"
   }
 }
